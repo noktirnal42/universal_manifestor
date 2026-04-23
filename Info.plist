@@ -41,10 +41,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2026 Universal Manifestor. All rights reserved.</string>
 	
-	<!-- macOS App Category - Valid UTI -->
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.health-fitness</string>
-	
 	<!-- Privacy Permissions -->
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Universal Manifestor uses audio to create immersive meditation soundscapes</string>
