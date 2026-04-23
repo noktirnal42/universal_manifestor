@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Universal Manifestor. All rights reserved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Universal Manifestor uses audio to create immersive meditation soundscapes</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Universal Manifestor accesses your audio library for meditation soundscapes</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Universal Manifestor does not use Bluetooth</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Universal Manifestor does not use the camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Universal Manifestor does not access your photo library</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Universal Manifestor does not use location services</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Universal Manifestor does not use location services</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Universal Manifestor does not access your calendar</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Universal Manifestor does not access your contacts</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Universal Manifestor does not access your reminders</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Universal Manifestor does not use speech recognition</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Universal Manifestor does not use motion sensors</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Universal Manifestor does not access Health data</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Universal Manifestor does not access Health data</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Universal Manifestor does not track your activity across apps and websites</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.health-fitness</string>
+	
+<!-- Launch Screen configuration for iOS 14+ (replaces storyboard) -->
+<key>UILaunchScreen</key>
+<dict>
+    <key>UIColorName</key>
+    <string>SystemBackgroundColor</string>
+    <key>UIImageName</key>
+    <string></string>
+</dict>
+
+<!-- Interface Orientations for iPad multitasking support -->
+
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~iphone</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	
+	<key>ATSAppTransportSecurity</key>
+	<dict>
+		<key>ATSAllowsSecureConnection</key>
+		<true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

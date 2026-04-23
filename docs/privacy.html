@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=index.html#privacy">
+    <title>Privacy Policy - Universal Manifestor</title>
+    <link rel="canonical" href="index.html#privacy">
+    <style>
+        body {
+            margin: 0;
+            padding: 2rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1a1f3a 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .redirect {
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            color: #d4af37;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #f4df8a;
+            margin-bottom: 2rem;
+        }
+        a {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .spinner {
+            border: 3px solid rgba(212, 175, 55, 0.3);
+            border-top: 3px solid #d4af37;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 2rem auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="redirect">
+        <div class="spinner"></div>
+        <h1>Privacy Policy</h1>
+        <p>Loading Privacy Policy...</p>
+        <p>If you are not redirected, <a href="index.html#privacy">click here</a>.</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            window.location.href = 'index.html#privacy';
+        }, 100);
+    </script>
+</body>
+</html>

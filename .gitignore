@@ -1,60 +1,96 @@
+# Xcode build artifacts
+build/
+*.xcarchive
+*.xcuserstate
+*.xccheckout
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# App Store Connect exports
+export/
+*.app/
+release/
+
+# User-specific settings
+*.perspective
+*.mode2v3
+*.xcuserstate
+.project
+.settings/
+.build
+
 # macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Xcode
-build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
+*.pmxp
+*.suo
+*~
+._*
+.DocumentRevisions-V100
+.fseventsd
+*.tmp
+*.temp
+
+# Xcode
+*.ncb
+*.opt
+*.plc
+*.xcscmblueprint
 *.xccheckout
 *.moved-aside
-DerivedData
 *.hmap
-*.ipa
+*.in
+*.out
+*.generated
+*.pbxuser
+!default.pbxuser
+*.perspective
+!default.perspective
 *.xcuserstate
-*.xcscmblueprint
+!default.xcuserstate
+*.xcworkspacedata
+!project.xcworkspacedata
+*.suo
+*.mode1v3
+*.mode2v3
+*.perspective3
+*.project.pbxproj
+*.pbxuser
+*.hmap
+*.hmap
+*.dSYM
+*.dSYM/
 
-# CocoaPods
-Pods/
+# Generated icon files (keep source, not generated)
+# Keep the script, not the generated PNGs
+Icon-*.png
+AppIcon.png
+Appicon.png
 
-# Carthage
-Carthage/Build/
+# Documentation markdown files that are summaries
+ALL_FIXES_SUMMARY.md
+APP_STORE_CONNECT_PREPARATION.md
+DISTRIBUTION_READY_SUMMARY.md
+FINAL_CHECKLIST.md
+FIX_SUMMARY.md
+ISSUES_AND_RESOLUTIONS.md
+LAUNCH_SCREEN_FIX.md
+MARKETING_PACKAGE.md
+QUICK_START_DISTRIBUTION.md
 
-# Swift Package Manager
-.swiftpm/
-Package.pins
-Package.resolved
+# Scripts (keep only essential ones)
+# generate_all_icons.sh
+# generate_icons.sh
+# prepare_for_upload.sh
+# extract_icons.sh
+# setup_branding.sh
 
-# Test
-test_*.png
-extract_icons.sh
-
-# Temporary files
-*.tmp
-*.log
-
-# IDE
-.vscode/
-.idea/
+# Test files
+test_icon.png
+test_icon2.png
+UniversalManifestor_icon_asset_set.png
