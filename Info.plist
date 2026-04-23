@@ -66,11 +66,9 @@
 	<string>Universal Manifestor does not use motion sensors</string>
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>Universal Manifestor does not access Health data</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Universal Manifestor does not access Health data</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Universal Manifestor does not track your activity across apps and websites</string>
-	<key>LSApplicationCategoryType</key>
+<key>NSHealthShareUsageDescription</key>
+<string>Universal Manifestor does not access Health data</string>
+<key>LSApplicationCategoryType</key>
 	<string>public.app-category.health-fitness</string>
 	
 <!-- Launch Screen configuration for iOS 14+ (replaces storyboard) -->
