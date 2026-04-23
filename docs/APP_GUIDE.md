@@ -4,7 +4,7 @@
 
 **Universal Manifestor** is a guided meditation and intention-setting application designed to help you focus your mind, align your energy, and manifest the life you desire. Built with cutting-edge visualization technology and immersive audio, it provides a unique meditation experience for both iOS and macOS devices.
 
-![Universal Manifestor Logo](assets/AppIcon.png)
+![Universal Manifestor Banner](assets/UniversalManifestor_banner.png)
 
 ---
 

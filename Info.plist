@@ -40,6 +40,8 @@
 	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2026 Universal Manifestor. All rights reserved.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
 	
 	<!-- macOS App Category - Required for App Store validation -->
 	<key>LSApplicationCategoryType</key>
@@ -84,5 +86,7 @@
 	<!-- App uses only exempt encryption (standard HTTPS/SSL) -->
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 </dict>
 </plist>

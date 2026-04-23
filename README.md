@@ -1,8 +1,8 @@
 # Universal Manifestor
 
-### Focus Your Energy. Align Your Intention. Manifest Your Reality.
+![Universal Manifestor Banner](docs/assets/UniversalManifestor_banner.png)
 
-![Universal Manifestor Banner](docs/assets/banner.png)
+### Focus Your Energy. Align Your Intention. Manifest Your Reality.
 
 **Universal Manifestor** is a cutting-edge meditation and intention-setting application that combines immersive 3D visualizations with spatial audio technology to help you achieve deep meditative states and manifest your desires.
 
@@ -23,6 +23,8 @@ Available on **iOS**, **iPadOS**, and **macOS**.
 | ⚖️ **Align** | Balance energy, harmonize mind-body-spirit | 10-20 min |
 | ✨ **Manifest** | Set intentions, visualize goals | 15-30 min |
 | 🌌 **Universe** | Deep connection, expanded consciousness | 20-45 min |
+
+![Meditation Modes](docs/assets/UniversalManifestor_banner2.png)
 
 ### Core Experience
 
@@ -100,6 +102,7 @@ Universal Manifestor uses advanced visualization and audio processing:
 - **[Privacy Policy](docs/privacy.html)** - Our commitment to your privacy
 - **[Terms of Service](docs/terms.html)** - Usage terms and conditions
 - **[Support](docs/support.html)** - Help and troubleshooting
+- **[Wiki](https://github.com/noktirnal42/universal_manifestor/wiki)** - Detailed technical documentation and analysis
 
 ---
 
@@ -193,5 +196,5 @@ All other trademarks are the property of their respective owners.
 
 ---
 
-*Last Updated: April 22, 2026*  
+*Last Updated: April 23, 2026*  
 *Version: 1.0.0*
