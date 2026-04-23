@@ -1,72 +1,58 @@
-# Xcode and Build Files (PRIVATE - DO NOT COMMIT)
-*.xcodeproj/
-*.xcworkspace/
-*.xcarchive/
-*.xcuserstate/
-*.xccheckout/
-*.pbxuser/
-*.mode1v3/
-*.mode2v3/
-*.perspective3/
-*.hmap/
-*.ipa/
-*.dSYM/
+# --- CRITICAL: Keep Source Code, Exclude Public Docs ---
+
+# Keep: *.swift, *.xcodeproj, *.entitlements, Info.plist
+# Exclude: docs/, release/, wiki-temp, build artifacts
+
+# Build
 build/
+*.xcarchive
+*.xcuserstate
 DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM/
 
-# Swift Source Files (PRIVATE - DO NOT COMMIT)
-*.swift
-!README.md
-
-# Scripts (PRIVATE - DO NOT COMMIT)
-*.sh
-!README.md
-
-# Release artifacts (PRIVATE - DO NOT COMMIT)
+# Release Artifacts
+release/
 releases/
 export/
 *.app/
 *.appex/
 
-# macOS files
-.DS_Store
+# Temporary / Backup
+*.backup
+*.corrupted
+*.swift.backup
+*.pyc
+__pycache__/
+*.log
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspective3
+*.xcuserstate
+!default.xcuserstate
+*.xcworkspacedata
+!project.xcworkspacedata
+*.suo
+*.hmap
+*.dSYM
 ._*
+.DS_Store
 .DocumentRevisions-V100/
-.fseventsd/
+.fseventsd
 .Spotlight-V100/
 .TemporaryItems/
 .Trashes/
 
-# Local configuration
-*.local
-*.local.*
-.localenv
-.env
-.env.*
-!README.md
-
-# Test files
+# Scripts (Keep essential ones, exclude temp)
+fix_*.py
+extract_*.sh
 test_*.png
 test_*.jpg
 test_*.mp4
 
-# Generated assets
-generate_*.sh
-extract_*.sh
-prepare_*.sh
-fix_*.py
-*.pyc
-__pycache__/
-
-# Documentation generated files
-MARKETING_PACKAGE.md
-QUICK_START_DISTRIBUTION.md
-DISTRIBUTION_READY_SUMMARY.md
-FINAL_CHECKLIST.md
-FIX_SUMMARY.md
-ALL_FIXES_SUMMARY.md
-APP_STORE_CONNECT_PREPARATION.md
-LAUNCH_SCREEN_FIX.md
-ISSUES_AND_RESOLUTIONS.md
-ExportOptions.plist
-ExportOptions_NoTracking.plist
+# Documentation (Keep root README, exclude docs folder content if needed)
+# Note: We WANT to keep Info.plist, Entitlements, and Swift files
