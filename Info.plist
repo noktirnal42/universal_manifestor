@@ -79,5 +79,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 	</dict>
+	
+	<!-- Encryption Export Compliance (US Export Laws) -->
+	<!-- App uses only exempt encryption (standard HTTPS/SSL) -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
