@@ -1,96 +1,72 @@
-# Xcode build artifacts
+# Xcode and Build Files (PRIVATE - DO NOT COMMIT)
+*.xcodeproj/
+*.xcworkspace/
+*.xcarchive/
+*.xcuserstate/
+*.xccheckout/
+*.pbxuser/
+*.mode1v3/
+*.mode2v3/
+*.perspective3/
+*.hmap/
+*.ipa/
+*.dSYM/
 build/
-*.xcarchive
-*.xcuserstate
-*.xccheckout
 DerivedData/
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
 
-# App Store Connect exports
+# Swift Source Files (PRIVATE - DO NOT COMMIT)
+*.swift
+!README.md
+
+# Scripts (PRIVATE - DO NOT COMMIT)
+*.sh
+!README.md
+
+# Release artifacts (PRIVATE - DO NOT COMMIT)
+releases/
 export/
 *.app/
-release/
+*.appex/
 
-# User-specific settings
-*.perspective
-*.mode2v3
-*.xcuserstate
-.project
-.settings/
-.build
-
-# macOS
+# macOS files
 .DS_Store
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-*.pmxp
-*.suo
-*~
 ._*
-.DocumentRevisions-V100
-.fseventsd
-*.tmp
-*.temp
+.DocumentRevisions-V100/
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems/
+.Trashes/
 
-# Xcode
-*.ncb
-*.opt
-*.plc
-*.xcscmblueprint
-*.xccheckout
-*.moved-aside
-*.hmap
-*.in
-*.out
-*.generated
-*.pbxuser
-!default.pbxuser
-*.perspective
-!default.perspective
-*.xcuserstate
-!default.xcuserstate
-*.xcworkspacedata
-!project.xcworkspacedata
-*.suo
-*.mode1v3
-*.mode2v3
-*.perspective3
-*.project.pbxproj
-*.pbxuser
-*.hmap
-*.hmap
-*.dSYM
-*.dSYM/
+# Local configuration
+*.local
+*.local.*
+.localenv
+.env
+.env.*
+!README.md
 
-# Generated icon files (keep source, not generated)
-# Keep the script, not the generated PNGs
-Icon-*.png
-AppIcon.png
-Appicon.png
+# Test files
+test_*.png
+test_*.jpg
+test_*.mp4
 
-# Documentation markdown files that are summaries
-ALL_FIXES_SUMMARY.md
-APP_STORE_CONNECT_PREPARATION.md
+# Generated assets
+generate_*.sh
+extract_*.sh
+prepare_*.sh
+fix_*.py
+*.pyc
+__pycache__/
+
+# Documentation generated files
+MARKETING_PACKAGE.md
+QUICK_START_DISTRIBUTION.md
 DISTRIBUTION_READY_SUMMARY.md
 FINAL_CHECKLIST.md
 FIX_SUMMARY.md
-ISSUES_AND_RESOLUTIONS.md
+ALL_FIXES_SUMMARY.md
+APP_STORE_CONNECT_PREPARATION.md
 LAUNCH_SCREEN_FIX.md
-MARKETING_PACKAGE.md
-QUICK_START_DISTRIBUTION.md
-
-# Scripts (keep only essential ones)
-# generate_all_icons.sh
-# generate_icons.sh
-# prepare_for_upload.sh
-# extract_icons.sh
-# setup_branding.sh
-
-# Test files
-test_icon.png
-test_icon2.png
-UniversalManifestor_icon_asset_set.png
+ISSUES_AND_RESOLUTIONS.md
+ExportOptions.plist
+ExportOptions_NoTracking.plist
