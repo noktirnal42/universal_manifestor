@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Manifestor - Focus Your Energy. Align Your Intention. Manifest Your Reality.</title>
+    <meta name="description" content="Universal Manifestor is a guided meditation and intention-setting application designed to help you focus your mind, align your energy, and manifest the life you desire.">
+    <style>
+        :root {
+            --cosmic-dark: #0a0e1a;
+            --cosmic-blue: #1a1f3a;
+            --gold: #d4af37;
+            --gold-light: #f4df8a;
+            --purple: #6b4c9a;
+            --star-white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, var(--cosmic-dark) 0%, var(--cosmic-blue) 100%);
+            color: var(--star-white);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, rgba(10,14,26,0) 0%, rgba(107,76,154,0.3) 100%);
+        }
+        
+        .logo {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 30px;
+            border-radius: 35px;
+            box-shadow: 0 0 60px rgba(212,175,55,0.4);
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            font-size: 1.4em;
+            color: var(--gold-light);
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .modes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .mode-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(212,175,55,0.2);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .mode-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            box-shadow: 0 20px 40px rgba(212,175,55,0.2);
+        }
+        
+        .mode-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .mode-card h3 {
+            color: var(--gold);
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .features {
+            margin: 80px 0;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .feature-item {
+            background: rgba(255,255,255,0.03);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 3px solid var(--gold);
+        }
+        
+        .feature-item h4 {
+            color: var(--gold);
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, rgba(107,76,154,0.3) 0%, rgba(10,14,26,0) 100%);
+            margin-top: 60px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--gold) 0%, #b8941f 100%);
+            color: var(--cosmic-dark);
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(212,175,55,0.4);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(212,175,55,0.2);
+            margin-top: 60px;
+            color: rgba(255,255,255,0.6);
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5em; }
+            .tagline { font-size: 1.1em; }
+            .logo { width: 120px; height: 120px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/AppIcon.png" alt="Universal Manifestor Logo" class="logo">
+            <h1>UNIVERSAL MANIFESTOR</h1>
+            <p class="tagline">Focus your energy. Align your intention. Manifest your reality.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="modes">
+            <div class="mode-card">
+                <div class="mode-icon">🎯</div>
+                <h3>FOCUS</h3>
+                <p>Sharpen your mental clarity and direct your attention with precision. Perfect for beginning your practice.</p>
+            </div>
+            <div class="mode-card">
+                <div class="mode-icon">🌀</div>
+                <h3>ALIGN</h3>
+                <p>Balance your energy centers and harmonize your mind, body, and spirit. Restore inner equilibrium.</p>
+            </div>
+            <div class="mode-card">
+                <div class="mode-icon">✨</div>
+                <h3>MANIFEST</h3>
+                <p>Powerful intention-setting practices to bring your desires into reality through focused consciousness.</p>
+            </div>
+            <div class="mode-card">
+                <div class="mode-icon">🌌</div>
+                <h3>UNIVERSE</h3>
+                <p>Connect with infinite possibilities and the greater cosmic consciousness. Experience unity.</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2 style="text-align: center; color: var(--gold); font-size: 2.5em; margin-bottom: 20px;">Why Universal Manifestor?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>🎨 Beautiful Visual Design</h4>
+                    <p>Stunning cosmic particle fields and sacred geometry patterns create an immersive visual experience that draws you deeper into meditation.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🎵 Immersive Audio</h4>
+                    <p>Carefully crafted soundscapes with binaural beats and isochronic tones guide you into profound meditative states.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📱 Cross-Platform</h4>
+                    <p>Available on macOS, iOS, and iPadOS. Your practice syncs seamlessly across all your devices.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🔒 Privacy First</h4>
+                    <p>No personal data collection. Your practice is private and all data stays on your device.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <div class="container">
+            <h2 style="color: var(--gold); font-size: 2.5em; margin-bottom: 20px;">Begin Your Journey</h2>
+            <p style="font-size: 1.3em; max-width: 600px; margin: 0 auto 30px;">
+                Join thousands of practitioners who use Universal Manifestor daily to transform their consciousness and manifest their dreams.
+            </p>
+            <a href="#" class="cta-button">Download on the App Store</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Universal Manifestor. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="support.html" style="color: var(--gold); text-decoration: none; margin: 0 15px;">Support</a>
+                <a href="https://github.com/noktirnal42/universal_manifestor/wiki" style="color: var(--gold); text-decoration: none; margin: 0 15px;">Wiki</a>
+                <a href="https://github.com/noktirnal42/universal_manifestor" style="color: var(--gold); text-decoration: none; margin: 0 15px;">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
