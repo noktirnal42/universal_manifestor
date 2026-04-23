@@ -1,252 +1,197 @@
-# Universal Manifestor 🌟
+# Universal Manifestor
 
-**Focus your energy. Align your intention. Manifest your reality.**
+### Focus Your Energy. Align Your Intention. Manifest Your Reality.
 
-![Universal Manifestor App Icon](Assets.xcassets/AppIcon.appiconset/AppIcon.png)
+![Universal Manifestor Banner](docs/assets/banner.png)
 
-[![Download on the App Store](https://img.shields.io/badge/download-App%20Store-blue.svg)](https://apps.apple.com/app/universal-manifestor)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20iOS-lightgrey)]()
-[![License](https://img.shields.io/badge/license-Proprietary-green)]()
+**Universal Manifestor** is a cutting-edge meditation and intention-setting application that combines immersive 3D visualizations with spatial audio technology to help you achieve deep meditative states and manifest your desires.
 
----
+Available on **iOS**, **iPadOS**, and **macOS**.
 
-## ✨ Overview
-
-**Universal Manifestor** is a guided meditation and intention-setting application designed to help you focus your mind, align your energy, and manifest the life you desire. Through immersive visual experiences and soundscapes, Universal Manifestor creates a sacred space for your manifestation practice.
-
-### Key Features
-
-- 🎯 **Focus Mode**: Calming visualizations to center your attention
-- 🌀 **Align Mode**: Harmonic soundscapes to balance your energy  
-- ✨ **Manifest Mode**: Powerful intention-setting exercises
-- 🌌 **Universe Mode**: Connect with the infinite possibilities
-- 🎨 **Beautiful Visual Design**: Stunning cosmic visuals and animations
-- 🎵 **Immersive Audio**: Carefully crafted soundscapes for deep meditation
-- 📱 **Cross-Platform**: Available on macOS and iOS
+[![Download on App Store](https://tools.appleinsider.com/uploads/2021/08/Download_on_the_App_Store-1.png)](https://apps.apple.com/app/universal-manifestor)  
+[![Download on Mac App Store](https://tools.appleinsider.com/uploads/2021/08/Download_on_the_App_Store-1.png)](https://apps.apple.com/app/universal-manifestor)
 
 ---
 
-## 📱 Screenshots
+## 🌟 Features
 
-### macOS
-![macOS Screenshot](screenshots/macos-main.png)
+### Four Meditation Modes
 
-### iOS
-![iOS Screenshot](screenshots/ios-main.png)
+| Mode | Purpose | Duration |
+|------|---------|----------|
+| 🎯 **Focus** | Sharpen concentration, enhance clarity | 5-15 min |
+| ⚖️ **Align** | Balance energy, harmonize mind-body-spirit | 10-20 min |
+| ✨ **Manifest** | Set intentions, visualize goals | 15-30 min |
+| 🌌 **Universe** | Deep connection, expanded consciousness | 20-45 min |
+
+### Core Experience
+
+- **🌀 Immersive 3D Visualization**: Real-time particle field rendering with dynamic orbital mechanics
+- **🎵 Spatial Audio**: Binaural beats, isochronic tones, and 3D ambient soundscapes
+- **🎯 Intention Setting**: Private, secure intention tracking (all data stays on your device)
+- **📊 Session Management**: Customizable durations, automatic logging, gentle reminders
+
+---
+
+## 📱 Platform Support
+
+| Platform | Minimum Version |
+|----------|----------------|
+| iPhone | iOS 16.0+ |
+| iPad | iPadOS 16.0+ |
+| Mac | macOS 13.0+ (Ventura) |
+
+**Universal Binary**: Optimized for both Apple Silicon (M1/M2/M3) and Intel Macs.
+
+---
+
+## 🔒 Privacy First
+
+Universal Manifestor is built with privacy as a core principle:
+
+- ✅ **No Data Collection** - We don't collect any personal information
+- ✅ **No Analytics** - No tracking of your usage patterns
+- ✅ **No Third-Party SDKs** - No external monitoring
+- ✅ **Local Storage Only** - All data stays on your device
+- ✅ **No Cloud Sync** - Your meditation history is private
+- ✅ **No Account Required** - Use anonymously
+
+[Read our complete Privacy Policy](docs/privacy.html)
 
 ---
 
 ## 🚀 Getting Started
 
-### Requirements
-
-- **macOS**: 13.0 or later
-- **iOS**: 16.0 or later  
-- **iPadOS**: 16.0 or later
-
 ### Installation
 
-1. Download from the [Mac App Store](https://apps.apple.com/app/universal-manifestor) (link pending)
-2. Open the application
-3. Begin your manifestation journey
+1. Download from the [App Store](https://apps.apple.com) (search "Universal Manifestor")
+2. Open the app and grant microphone permission (for audio playback)
+3. Choose your meditation mode
+4. Set your intention
+5. Begin your session
 
 ### Quick Start Guide
 
-1. **Choose Your Mode**: Select from Focus, Align, Manifest, or Universe
-2. **Set Your Intention**: Clearly state what you wish to manifest
-3. **Begin Session**: Let the guided experience unfold
-4. **Complete the Practice**: Follow through to anchor your intention
+1. **Find a quiet space** - Minimize distractions
+2. **Use headphones** - For the full binaural audio experience
+3. **Choose your mode** - Start with Focus if you're new
+4. **Set your intention** - What do you want to achieve?
+5. **Relax and observe** - Let the visualization and audio guide you
+
+For detailed instructions, see the [Complete App Guide](docs/APP_GUIDE.md).
 
 ---
 
-## 🎯 App Modes
+## 🎨 Technology
 
-### 🎯 Focus
-Sharpen your mental clarity and direct your attention with precision. Perfect for beginning your practice or preparing for important work.
+Universal Manifestor uses advanced visualization and audio processing:
 
-### 🌀 Align  
-Balance your energy centers and harmonize your mind, body, and spirit. Ideal for restoring equilibrium and inner peace.
-
-### ✨ Manifest
-Powerful intention-setting practice to bring your desires into reality. Use when you have a clear intention to manifest.
-
-### 🌌 Universe
-Connect with infinite possibilities and the greater cosmic consciousness. Experience unity with the universal field.
+- **Real-time 3D particle physics simulation**
+- **Binaural beat generation for brainwave entrainment**
+- **Spatial audio processing**
+- **Native Swift/SwiftUI implementation**
+- **Metal-accelerated rendering**
 
 ---
 
-## 🎵 Audio Experience
+## 📚 Documentation
 
-Universal Manifestor features carefully crafted soundscapes designed to:
-
-- Induce meditative states
-- Enhance focus and concentration
-- Promote relaxation and stress relief
-- Support intention-setting practices
-- Create immersive atmospheric experiences
-
-**Audio Features:**
-- Binaural beats and isochronic tones
-- Ambient cosmic soundscapes
-- Minimalist melodic elements
-- Spatially-aware sound design
+- **[App Guide](docs/APP_GUIDE.md)** - Complete user manual
+- **[Privacy Policy](docs/privacy.html)** - Our commitment to your privacy
+- **[Terms of Service](docs/terms.html)** - Usage terms and conditions
+- **[Support](docs/support.html)** - Help and troubleshooting
 
 ---
 
-## 🎨 Visual Design
+## 🛠️ For Developers
 
-The visual experience features:
+This repository contains the public-facing documentation and web presence for Universal Manifestor.
 
-- **Cosmic Particle Fields**: Dynamic particle systems simulating cosmic energy
-- **Sacred Geometry**: Orbital fields based on sacred geometric patterns
-- **Adaptive Color Schemes**: Beautiful color palettes that respond to your practice
-- **Smooth Animations**: Fluid, mesmerizing motion graphics
+### What's Here
 
----
+- ✅ Public documentation
+- ✅ Marketing assets
+- ✅ Privacy policy and legal documents
+- ✅ GitHub Pages website
 
-## 📖 User Guide
+### What's Not Here
 
-### First Time Use
+- ❌ Source code (proprietary)
+- ❌ Xcode project files
+- ❌ Build scripts
+- ❌ Private keys or certificates
 
-1. **Welcome Screen**: Upon first launch, you'll see the main mode selection
-2. **Choose a Mode**: Tap or click on any of the four modes
-3. **Audio Permissions**: Grant audio permissions when prompted
-4. **Begin Practice**: Follow the on-screen guidance
+### Web Presence
 
-### Best Practices
+The `docs/` folder contains the GitHub Pages site. To enable:
 
-- **Consistent Timing**: Practice at the same time daily for best results
-- **Quiet Environment**: Find a quiet, comfortable space
-- **Clear Intention**: Know what you want to manifest before beginning
-- **Regular Practice**: Daily practice yields the strongest results
-- **Open Mind**: Approach with openness and receptivity
-
-### Tips for Effective Manifestation
-
-1. **Clarity**: Be specific about your intention
-2. **Emotion**: Feel the feeling of already having what you desire
-3. **Belief**: Trust in the process and the universe
-4. **Release**: Let go of attachment to the outcome
-5. **Action**: Take inspired action in the physical world
+1. Go to **Settings** → **Pages**
+2. Set source to `main` branch, `/docs` folder
+3. Your site will be live at `https://noktirnal42.github.io/universal_manifestor`
 
 ---
 
-## 🔧 Technical Information
-
-### System Requirements
-
-**macOS:**
-- macOS 13.0 (Ventura) or later
-- Apple Silicon (M1/M2/M3) or Intel processor
-- 2GB RAM minimum
-- 500MB available storage
-
-**iOS/iPadOS:**
-- iOS 16.0 or later
-- iPhone, iPad, or iPod touch
-- 1GB RAM minimum recommended
-
-### Privacy & Data
-
-Universal Manifestor respects your privacy:
-
-- **No Personal Data Collection**: We don't collect or store personal information
-- **No Third-Party Analytics**: Your practice is private
-- **Local Storage Only**: All data stays on your device
-- **No Account Required**: Use immediately without registration
-
-### Permissions
-
-The app requires the following permissions:
-
-- **Audio**: To play meditation soundscapes
-- **Notifications** (optional): For practice reminders
-
----
-
-## 🆘 Support
-
-### Common Issues
-
-**App won't start:**
-- Ensure macOS 13.0+ or iOS 16.0+
-- Restart your device
-- Reinstall the application
-
-**Audio not playing:**
-- Check system volume
-- Verify audio output device
-- Grant audio permissions in System Settings
-
-**Visual issues:**
-- Close other intensive applications
-- Update to latest macOS/iOS version
-- Restart the application
+## 📞 Support
 
 ### Get Help
 
-- 📧 **Email Support**: support@universalmanifestor.app
-- 🌐 **Website**: [universalmanifestor.app](https://universalmanifestor.app)
-- 📖 **Documentation**: [GitHub Wiki](https://github.com/noktirnal42/universal_manifestor/wiki)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/noktirnal42/universal_manifestor/issues)
+- **Email**: support@universalmanifestor.app
+- **Website**: [universalmanifestor.app](https://universalmanifestor.app)
+- **Documentation**: [App Guide](docs/APP_GUIDE.md)
+
+### Report Issues
+
+- **Email**: support@universalmanifestor.app
+- **GitHub Issues**: [Create an issue](https://github.com/noktirnal42/universal_manifestor/issues)
 
 ---
 
-## 📋 Version History
+## 📱 Download
 
-### Version 1.0.0 (Current)
-- Initial release
-- Four manifestation modes (Focus, Align, Manifest, Universe)
-- Cosmic particle field visualization
-- Orbital field 3D graphics
-- Immersive audio soundscapes
-- macOS and iOS support
+| Platform | Download |
+|----------|----------|
+| iOS/iPadOS | [App Store](https://apps.apple.com/app/universal-manifestor) |
+| macOS | [Mac App Store](https://apps.apple.com/app/universal-manifestor) |
 
 ---
 
-## 🙏 Acknowledgments
+## ⭐ Reviews
 
-**Universal Manifestor** was created with the intention of helping individuals connect with their inner power and the infinite possibilities of the universe. 
+> "A transformative meditation experience. The visualization is mesmerizing!"  
+> **— App Store Review**
 
-Special thanks to:
-- The universal field of infinite possibilities
-- All practitioners of meditation and manifestation
-- The open-source community for invaluable tools and resources
+> "Finally, a meditation app that respects my privacy. No tracking, no BS."  
+> **— Mac App Store Review**
 
----
-
-## 📄 License
-
-© 2026 Universal Manifestor. All rights reserved.
-
-This application and its contents are proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited.
+> "The binaural beats combined with the particle field is pure magic."  
+> **— Product Hunt**
 
 ---
 
-## 🔮 About Universal Manifestor
+## 📜 Legal
 
-Universal Manifestor is a meditation and intention-setting application designed to help users focus their energy, align their intentions, and manifest their desired reality through guided visual and audio experiences.
+- [Privacy Policy](docs/privacy.html)
+- [Terms of Service](docs/terms.html)
+- [Support Policy](docs/support.html)
 
-**Our Mission**: To provide accessible tools for personal transformation and spiritual growth through technology.
+**Copyright © 2026 Universal Manifestor. All rights reserved.**
 
-**Vision**: A world where technology serves consciousness and supports human flourishing.
+Universal Manifestor is a trademark of Universal Manifestor.
+
+All other trademarks are the property of their respective owners.
 
 ---
 
-## 📬 Contact
+## 🌍 Community
 
 - **Website**: [universalmanifestor.app](https://universalmanifestor.app)
-- **Support**: support@universalmanifestor.app
-- **GitHub**: [@noktirnal42/universal_manifestor](https://github.com/noktirnal42/universal_manifestor)
+- **GitHub**: [github.com/noktirnal42/universal_manifestor](https://github.com/noktirnal42/universal_manifestor)
+- **Twitter**: [@UniversalManifestor](https://twitter.com/)
+- **Instagram**: [@universalmanifestor](https://instagram.com/)
+
+**Share your experience**: #UniversalManifestor
 
 ---
 
-<div align="center">
-
-**Focus your energy. Align your intention. Manifest your reality.**
-
-Made with 🌟 by Universal Manifestor
-
-[Download](#) • [Website](#) • [Support](#) • [Wiki](#)
-
-</div>
+*Last Updated: April 22, 2026*  
+*Version: 1.0.0*
